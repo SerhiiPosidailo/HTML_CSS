@@ -1,0 +1,19 @@
+h1{
+    margin: 5px 5px;
+}
+
+h2 {
+    margin: 5px 5px;
+    font-size: 32px;
+}
+
+p {
+    font-size: 50px;
+    display: inline-block;
+    margin: 25px 5px;
+    background-color: rgba(175, 175, 175, 0.27);
+}
+
+span {
+    color: red;
+}
