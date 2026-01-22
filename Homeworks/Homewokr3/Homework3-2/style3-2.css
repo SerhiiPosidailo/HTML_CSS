@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------- HEADER -----------------------------------*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdbec9;
+    height: 50vh;
+}
+header h3 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+header p{
+    width: 75vw;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*--------------------------------- FOOTER -----------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    height: 50vh;
+}
+
+footer h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+footer p {
+    width: 75vw;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}

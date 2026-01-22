@@ -1,0 +1,50 @@
+header, footer {
+    background-color: #2169ba;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 30vh;
+    border-radius: 5px;
+}
+header p{
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 36px
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    height: 25vh;
+    width: 32.2vw;
+    background-color: #164479;
+    border-radius: 5px;
+}
+
+section div p{
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 36px
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 36px
+}
