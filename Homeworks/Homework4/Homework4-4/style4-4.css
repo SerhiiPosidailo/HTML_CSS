@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+/*------------------------ HEADER ----------------------------*/
+header {
+    height: 4vh;
+    background: #D9D9D9;
+}
+
+/*------------------------ MAIN ----------------------------*/
+main {
+    display: flex;
+}
+/*------------------------ LEFT-BLOCK ----------------------------*/
+.container_left {
+    display: flex;
+}
+
+.container_left_one {
+    width: 29vw;
+    height: 86vh;
+    background: #A4A4A4;
+}
+
+.container_left_two {
+    width: 30vw;
+    height: 86vh;
+    background: #C1C1C1;
+}
+
+/*------------------------ RIGHT-BLOCK ----------------------------*/
+.container_right_one {
+    width: 41vw;
+    height: 43vh;
+    background: #7F7A7A;
+}
+.container_right_two {
+    width: 41vw;
+    height: 43vh;
+    background: #6B6161;
+}
+
+
+/*------------------------ FOOTER ----------------------------*/
+footer {
+    height: 10vh;
+    background: #D9D9D9;
+}

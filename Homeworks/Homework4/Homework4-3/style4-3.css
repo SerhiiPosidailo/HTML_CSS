@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+/*------------------------ HEADER ----------------------------*/
+header{
+    height: 4vh;
+    background: #D9D9D9;
+}
+
+/*------------------------ MAIN ----------------------------*/
+main{
+    display: flex;
+}
+
+.left_block{
+    width: 59vw;
+    background: #A4A4A4;
+}
+
+.top_box {
+    height: 40vh;
+    width: 41vw;
+    background: #7F7A7A;
+}
+
+.down_box{
+    width: 41vw;
+    height: 34vh;
+    background: #615050;
+}
+
+/*------------------------ SECTION ----------------------------*/
+section {
+    height: 10vh;
+    background: #D9D9D9;
+}
+
+/*------------------------ FOOTER ----------------------------*/
+footer {
+    height: 12vh;
+    background: #AFA9A9;
+}
