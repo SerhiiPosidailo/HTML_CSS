@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+/*------------------------ HEADER ----------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background: #8D8484;
+    font-size: 45px;
+}
+/*------------------------ MAIN ----------------------------*/
+main {
+    display: flex;
+}
+
+main aside div{
+    width: 73vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content_one {
+    background: #776969;
+    color: #FFF;
+    font-size: 45px;
+}
+
+.Content_two {
+    background: #643030;
+    color: #FFF;
+    font-size: 45px;
+}
+
+.Content_three {
+    background: #441818;
+    color: #FFF;
+    font-size: 45px;
+}
+
+main section div{
+    width: 27vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spam_one {
+    background: #937575;
+    color: #FFF;
+    font-size: 45px;
+}
+
+.spam_two {
+    background: #644C4C;
+    color: #FFF;
+    font-size: 45px;
+}
+
+/*------------------------ FOOTER ----------------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background: #BDBDBD;
+    font-size: 45px;
+}

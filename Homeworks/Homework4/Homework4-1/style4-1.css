@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+header, footer {
+    height: 14vh;
+    background: #D9D9D9;
+}
+
+main {
+    display: flex;
+}
+
+main aside {
+    height: 72vh;
+    width: 27vw;
+    background: #C0BDBD;
+}
+
+.up_box {
+    height: 50%;
+    width: 46vw;
+    background: #827878;
+}
+
+.down_box {
+    height: 50%;
+    width: 46vw;
+    background: #B7ADAD;
+}
