@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 15px solid #fd2828;
+    animation: serf 10s linear infinite;
+}
+
+@keyframes serf {
+    from{
+        transform: rotate(360deg) translate(300px, 0px);
+    }
+    to{
+        transform: rotate(-360deg) translate(300px, 0) ;
+        border: 15px solid #01bf08;
+        color: #dd0101;
+        font-size: 40px;
+    }
+}
