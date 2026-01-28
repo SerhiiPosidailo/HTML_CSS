@@ -1,0 +1,20 @@
+.first_block>ul>li:nth-child(2n) {
+    color: pink;
+}
+
+.second_block>ul>li:nth-child(2n+1) {
+    font-size: 22px;
+}
+
+.third_block>ul>li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+.fourth_block>ul>li:last-child{
+    color: purple;
+}
+
+.fifth_block>ul>li:first-letter{
+    font-size: 30px;
+    color: red;
+}
