@@ -1,0 +1,17 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .wrapper{
+        width: 720px;
+    }
+
+    .box_item {
+        width: 218px;
+    }
+
+    .box_item h3{
+        font-size: 15px;
+    }
+
+    .box_item p{
+        font-size: 11px;
+    }
+}
